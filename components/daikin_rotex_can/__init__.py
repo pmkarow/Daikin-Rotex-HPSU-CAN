@@ -831,7 +831,8 @@ sensor_configuration = [
             0x01: "Heizen",
             0x02: "Kühlen",
             0x03: "Abtauen",
-            0x04: "Warmwasserbereitung"
+            0x04: "Warmwasserbereitung",
+            0x63: "SmartStartFunktion"
         },
         "update_entity": "thermal_power"
     },
