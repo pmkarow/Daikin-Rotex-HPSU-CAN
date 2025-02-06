@@ -809,12 +809,14 @@ sensor_configuration = [
         "map": {
             35: "35 °C",
             40: "40 °C",
+            43: "43 °C",
             45: "45 °C",
-            48: "48 °C",
-            49: "49 °C",
+            48: "46 °C",
+            49: "48 °C",
             50: "50 °C",
             51: "51 °C",
             52: "52 °C",
+            55: "55 °C",
             60: "60 °C",
             70: "70 °C",
         }
@@ -931,7 +933,7 @@ sensor_configuration = [
             8100: "E8100 Kommunikation",
             9000: "E9000 Interne vorübergehende Meldung",
             8006: "W8006 Warnung Druckverlust",
-            8007: "W8007 Wasserdruck in Anlage zu hoch"
+            8007: "W8007 Wasserdruck in Anlage zu hoch",
             12: "E12 tv oder tr defekt oder Wärmekammer zu heiss"
         }
     },
@@ -1144,7 +1146,7 @@ sensor_configuration = [
         "data_size": 1,
         "map": {
             0x00: "---",
-            0x01: "Brenner an"
+            0x01: "Brenner an",
             0x03: "SGN - Normaler Modus",
             0x04: "SG1 - WW & HZ ausgeschalten",
             0x05: "SG2 - WW & HZ + 5°C",
