@@ -932,6 +932,7 @@ sensor_configuration = [
             9000: "E9000 Interne vorübergehende Meldung",
             8006: "W8006 Warnung Druckverlust",
             8007: "W8007 Wasserdruck in Anlage zu hoch"
+            12: "E12 tv oder tr defekt oder Wärmekammer zu heiss"
         }
     },
     {
@@ -1143,6 +1144,7 @@ sensor_configuration = [
         "data_size": 1,
         "map": {
             0x00: "---",
+            0x01: "Brenner an"
             0x03: "SGN - Normaler Modus",
             0x04: "SG1 - WW & HZ ausgeschalten",
             0x05: "SG2 - WW & HZ + 5°C",
